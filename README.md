@@ -25,4 +25,3 @@ Feel free to contribute by suggesting new songs or improvements to the website. 
 This project is licensed under the MIT License.
 
 Enjoy the music! 🎧
-```

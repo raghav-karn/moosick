@@ -59,9 +59,45 @@ const songs = [
     title: "On & On",
     name: "Cartoon, Jéja & Daniel Levi",
     source:
-      "images/On & On.mp3",
+      "media/images/On & On.mp3",
     cover:
-      "images/on&on.jpg",
+      "media/images/songs/on&on.jpg",
+  },
+
+  {
+    title: "Cradles",
+    name: "Sub Urban",
+    source:
+      "media/audio/Cradles.mp3",
+    cover:
+      "media/images/songs/cradles.jpg",
+  },
+
+  {
+    title: "Dreams Pt. II",
+    name: "Lost Sky, Sara Skinner",
+    source:
+      "media/audio/Dreams Pt. II.mp3",
+    cover:
+      "media/images/songs/dreamspt2.jpg",
+  },
+
+  {
+    title: "Sky High",
+    name: "Elektronomia",
+    source:
+      "media/audio/Sky High.mp3",
+    cover:
+      "media/images/songs/skyhigh.png",
+  },
+
+  {
+    title: "Why We Lose",
+    name: "Jéja, Coleman Trapp, Cartoon",
+    source:
+      "media/audio/Why We Lose.mp3",
+    cover:
+      "media/images/songs/whywelose.jpg",
   },
 ];
 

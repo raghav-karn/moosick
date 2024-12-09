@@ -39,7 +39,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-image: url(images/bkg2.jpg);
+  background-image: url(media/images/website/bkg2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
