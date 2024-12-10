@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moosick</title>
+    <link rel="icon" type="image/x-icon" href="media/images/website/favicon.jpg">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+      <nav class="main-menu">
+        <div>
+          <div class="user-info">
+            <a href="https://github.com/raghav-karn" target="_blank"><img
+              src="media/images/website/pfp.jpg"
+              alt="user" /> </a>
+            <p>Raghav Karn</p>
+          </div>
+          <ul>
+            <li class="nav-item active">
+              <a href="#playlists">
+                <i class="fa fa-map nav-icon"></i>
+                <span class="nav-text">Discover</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#artists">
+                <i class="fa fa-arrow-trend-up nav-icon"></i>
+                <span class="nav-text">Trending</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#albums">
+                <i class="fa fa-compact-disc nav-icon"></i>
+                <span class="nav-text">Album</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">
+                <i class="fa fa-circle-play nav-icon"></i>
+                <span class="nav-text">Playlist</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">
+                <i class="fa fa-heart nav-icon"></i>
+                <span class="nav-text">Favorites</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <ul>
+          <li class="nav-item">
+            <a href="https://github.com/raghav-karn/moosick" target="_blank" style="margin-left: 9px; padding-left: 9px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16" style="margin-right: 10px;">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              </svg>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="mailto:raghav4811.risp@indirapuramschool.onmicrosoft.com" class="text-gray-400" target="_blank" style="padding-left: 10px;">
+              <img src="media/images/website/email.svg" alt="mail" width="24" height="24" style="margin-right: 5px; padding-right: 5px;">
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="https://highseas.hackclub.com/" id="logout-button" style="margin-left: 15px;padding-left: 15px;">
+              <i class="fa fa-right-from-bracket nav-icon"></i>
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <section class="content">
+        <div class="left-content">
+          <a id="playlists"></a>
+          <div class="slider-container">
+            <h1>Moosick: Muse with the moos!</h1>
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    src="media/images/vid/anyone.jpg" />
+                  <div class="slide-overlay">
+                    <h2>Current favorite song</h2>
+                    <a href="https://music.youtube.com/watch?v=aTEbpIpU1NM&si=C1HzKIGDQ6MXbetZ" target="_blank"><button>
+                      Anyone (Justin Bieber) <i class="fa-solid fa-circle-play"></i>
+                    </button></a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="media/images/artists/jb.jpg" />
+                  <div class="slide-overlay">
+                    <h2>Current favorite artist</h2>
+                    <a href="https://music.youtube.com/channel/UCGvj8kfUV5Q6lzECIrGY19g" target="_blank">
+                    <button>
+                      Justin Bieber <i class="fa-solid fa-circle-play"></i>
+                    </button></a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="media/images/albums/ncs.png" />
+                  <div class="slide-overlay">
+                    <h2>Copyright free music playlist</h2>
+                    <a href="https://music.youtube.com/playlist?list=PLRBp0Fe2Gpgn8Y9qI-p0aTxVtw8onBSFj&si=CzrfXxh7G7OTwnc4" target="_blank"><button>
+                      By NCS <i class="fa-solid fa-circle-play"></i>
+                    </button></a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="media/images/albums/yt.png" />
+                  <div class="slide-overlay">
+                    <h2>My YT Music Radio</h2>
+                    <a href="https://music.youtube.com/playlist?list=RDATjuUCH0oFBTApI5HZNUoygGZc9Q&playnext=1&si=16ZCiNVti0OmCLxt" target="_blank"><button>
+                      Open YT Music <i class="fa-solid fa-circle-play"></i>
+                    </button></a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="media/images/albums/mono.png" />
+                  <div class="slide-overlay">
+                    <h2>My Spotify playlist (dead)</h2>
+                    <a href="https://open.spotify.com/playlist/1TKq35NpAwWCQBkiYV7zO6?si=0eJoN37yTb-T-rriJcjBgQ" target="_blank"><button>
+                      Listen Now <i class="fa-solid fa-circle-play"></i>
+                    </button></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <a id="artists"></a>
+          <div class="artists">
+            <h1>Featured Artists</h1>
+            <div class="artist-container containers">
+              <div class="artist">
+                <a href="https://music.youtube.com/channel/UCGvj8kfUV5Q6lzECIrGY19g" target="_blank">
+                <img
+                  src="media/images/artists/jb.jpg"
+                  alt="" /> </a>
+                <p>Justin Bieber</p>
+              </div>
+
+              <div class="artist">
+                <a href="https://music.youtube.com/channel/UCREhun2tPd7aQnJczZM_Mww?si=vkvzvQxyBEQZ4moD" target="_blank">
+                <img
+                  src="media/images/artists/1d.jpg"
+                  alt="" /> </a>
+                <p>One Direction</p>
+              </div>
+
+              <div class="artist">
+                <a href="https://music.youtube.com/channel/UCCj0RlDqqahEB5BXVtDcPqg?si=8TNTlGORyR5aAalI" target="_blank">
+                <img
+                  src="media/images/artists/5sos.jpg"
+                  alt="" /> </a>
+                <p>5 Seconds of Summer</p>
+              </div>
+
+              <div class="artist">
+                <a href="https://music.youtube.com/channel/UCU1UCQ4ZnazwzKNPYPD-ZcQ?si=TYzI-rDyh3X8IbiJ" target="_blank">
+                <img
+                  src="media/images/artists/alex.jpg"
+                  alt="" /></a>
+                <p>Alexander Stewart</p>
+              </div>
+
+              <div class="artist">
+                <a href="https://music.youtube.com/channel/UCM1rew0hxgW7e-TRfmrMung?si=os_zjZrOCUBPTloa" target="_blank">
+                <img
+                  src="media/images/artists/jvke.jpg"
+                  alt="" /></a>
+                <p>JVKE</p>
+              </div>
+
+              <div class="artist">
+                <a href="https://music.youtube.com/channel/UClmXPfaYhXOYsNn_QUyheWQ?si=O784gLQrxMd0iW79" target="_blank">
+                <img
+                  src="media/images/artists/ed.jpg"
+                  alt="" /></a>
+                <p>Ed Sheeran</p>
+              </div>
+
+              <div class="artist">
+                <a href="https://music.youtube.com/channel/UCPC0L1d253x-KuMNwa05TpA?si=TpcTNk9SzUywrcFh" target="_blank">
+                <img
+                  src="media/images/artists/taylor.jpg"
+                  alt="" /></a>
+                <p>Taylor Swift</p>
+              </div>
+
+              <div class="artist">
+                <a href="https://music.youtube.com/channel/UC6ZjlLJhqP79nqGr3Ic6Adg?si=EULyWUiblaLcqV0D" target="_blank">
+                <img
+                  src="media/images/artists/shawn.jpg"
+                  alt="" /></a>
+                <p>Shawn Mendes</p>
+              </div>
+            </div>
+          </div>
+
+          <a id="albums"></a>
+          <div class="albums">
+            <h1>Recommended Albums</h1>
+            <div class="album-container containers">
+              <div class="album">
+                <div class="album-frame">
+                  <a href="https://music.youtube.com/playlist?list=OLAK5uy_ncceRDBKY0HXLzgu4FqQPi8DW2dbkJIZE&si=hse4kMZKEeqc4RXE" target="_blank">
+                  <img
+                    src="media/images/albums/justice.jpg"
+                    alt="" /></a>
+                </div>
+                <div>
+                  <h2>Justice</h2>
+                  <p>Justin Bieber</p>
+                </div>
+              </div>
+
+              <div class="album">
+                <div class="album-frame">
+                  <a href="https://music.youtube.com/playlist?list=OLAK5uy_lFcDdXedY5RznaVR2pbdeo_5H_DOPcXWU&si=BPyNzbDAWuWD1Rwf" target="_blank">
+                  <img
+                    src="media/images/albums/midnight.png"
+                    alt="" /></a>
+                </div>
+                <div>
+                  <h2>Midnight Memories</h2>
+                  <p>One Direction</p>
+                </div>
+              </div>
+
+              <div class="album">
+                <div class="album-frame">
+                  <a href="https://music.youtube.com/playlist?list=OLAK5uy_kQF1D-3BrTCPp38u3eZx5iPgbY2x8wIAg&si=RX-DF6ip8uToxXCZ" target="_blank">
+                  <img
+                    src="media/images/albums/eternal.png"
+                    alt="" /></a>
+                </div>
+                <div>
+                  <h2>Eternal Sunshine</h2>
+                  <p>Ariana Grande</p>
+                </div>
+              </div>
+
+              <div class="album">
+                <div class="album-frame">
+                  <a href="https://music.youtube.com/playlist?list=OLAK5uy_kSOwJFk04TA55j51-6p-My87hGMPmiT6k&si=L1Gg_WEK2NaF14SH" target="_blank">
+                  <img
+                    src="media/images/albums/twelve.jpg"
+                    alt="" /></a>
+                </div>
+                <div>
+                  <h2>Twelve Carrat Toothache</h2>
+                  <p>Post Malone</p>
+                </div>
+              </div>
+
+              <div class="album">
+                <div class="album-frame">
+                  <a href="https://music.youtube.com/playlist?list=OLAK5uy_kSOwJFk04TA55j51-6p-My87hGMPmiT6k&si=L1Gg_WEK2NaF14SH" target="_blank">
+                  <img
+                    src="media/images/albums/divide.jpg"
+                    alt="" /></a>
+                </div>
+                <div>
+                  <h2>÷</h2>
+                  <p>Ed Sheeran</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-content">
+          <div class="recommended-songs">
+            <h1>Recommended Songs</h1>
+            <div class="song-container">
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="media/images/vid/anyone.jpg"
+                    alt="" />
+                  <a href="https://music.youtube.com/watch?v=aTEbpIpU1NM&si=C1HzKIGDQ6MXbetZ" target="_blank">
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div></a>
+                </div>
+                <div class="song-title">
+                  <h2>Anyone</h2>
+                  <p>Justin Bieber</p>
+                </div>
+                <span>3:11</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="media/images/vid/givemeyourforever.jpg"
+                    alt="" />
+                  <a href="https://music.youtube.com/watch?v=3c2978V6BYA&si=TnpuhwDXgF7kM7Ip" target="_blank">
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div></a>
+                </div>
+                <div class="song-title">
+                  <h2>Give Me Your Forever</h2>
+                  <p>Zach Tabudlo</p>
+                </div>
+                <span>4:05</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="media/images/vid/perfect.jpg"
+                    alt="" />
+                  <a href="https://music.youtube.com/watch?v=ORrFJ63nlcA&si=7-xIoNGTyC5G2kst" target="_blank">
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div></a>
+                </div>
+                <div class="song-title">
+                  <h2>Perfect</h2>
+                  <p>Ed Sheeran</p>
+                </div>
+                <span>4:24</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="media/images/vid/beautiful.jpg"
+                    alt="" />
+                  <a href="https://music.youtube.com/watch?v=d57qSDCxVA4&si=H2jDUWWOyAyGmBZg" target="_blank">
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div></a>
+                </div>
+                <div class="song-title">
+                  <h2>What Makes You Beautiful</h2>
+                  <p>One Direction</p>
+                </div>
+                <span>3:20</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="media/images/vid/lovestory.jpg"
+                    alt="" />
+                  <a href="https://music.youtube.com/watch?v=aZ1hziFhj1o&si=fdWRFSVbxqAdRblB" target="_blank">
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div></a>
+                </div>
+                <div class="song-title">
+                  <h2>Love Story</h2>
+                  <p>Taylor Swift</p>
+                </div>
+                <span>3:56</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="media/images/vid/seven.webp"
+                    alt="" />
+                  <a href="https://music.youtube.com/watch?v=5McUFZz2s-w&si=RRhGU1z1HQ6skPAY" target="_blank">
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div></a>
+                </div>
+                <div class="song-title">
+                  <h2>Seven - Explicit Ver. (feat. Latto)</h2>
+                  <p>Junk Kook</p>
+                </div>
+                <span>3:04</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="media/images/vid/amnesia.jpg"
+                    alt="" />
+                  <a href="https://music.youtube.com/watch?v=7GK8D3IPeCY&si=cgdOoQ7K4ev-1TtN" target="_blank">
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div></a>
+                </div>
+                <div class="song-title">
+                  <h2>Amnesia</h2>
+                  <p>5 Seconds of Summer</p>
+                </div>
+                <span>3:57</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="media/images/vid/thereyouare.jpg"
+                    alt="" />
+                  <a href="https://music.youtube.com/watch?v=jJ1kKPdq_Lc&si=ZOdgZsYdTTT8Ovdh" target="_blank">
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div></a>
+                </div>
+                <div class="song-title">
+                  <h2>There You Are</h2>
+                  <p>Zayn</p>
+                </div>
+                <span>3:20</span>
+              </div>
+
+              <div class="song">
+                <div class="song-img">
+                  <img
+                    src="media/images/vid/wastingangels.jpg"
+                    alt="" />
+                  <a href="https://music.youtube.com/watch?v=fffGJR7pQFk&si=nwiLGvOGFTqyCW4_" target="_blank">
+                  <div class="overlay">
+                    <i class="fa-solid fa-play"></i>
+                  </div></a>
+                </div>
+                <div class="song-title">
+                  <h2>Wasting Angels</h2>
+                  <p>Post Malone</p>
+                </div>
+                <span>4:04</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="music-player">
+            <div class="album-cover">
+              <img src="media/images/songs/on&on.jpg" id="rotatingImage" alt="" />
+              <span class="point"></span>
+            </div>
+
+            <h2>On & On</h2>
+            <p>Cartoon, Jéja & Daniel Levi</p>
+
+            <audio id="song">
+              <source src="media/audio/On & On.mp3" type="audio/mpeg" />
+            </audio>
+
+            <input type="range" value="0" id="progress" />
+
+            <div class="controls">
+              <button class="backward">
+                <i class="fa-solid fa-backward"></i>
+              </button>
+              <button class="play-pause-btn">
+                <i class="fa-solid fa-play" id="controlIcon"></i>
+              </button>
+              <button class="forward">
+                <i class="fa-solid fa-forward"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js'></script>
+    <script src="script.js"></script>
+  </body>
+</html>
