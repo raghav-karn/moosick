@@ -59,7 +59,7 @@ const songs = [
     title: "On & On",
     name: "Cartoon, Jéja & Daniel Levi",
     source:
-      "media/images/On & On.mp3",
+      "media/audio/On & On.mp3",
     cover:
       "media/images/songs/on&on.jpg",
   },
